@@ -50,5 +50,14 @@ h1 {
   border-left: 7px solid #885df1;
   display: block;
   margin: 35px auto;
-  font-size: 20px;
+  font-size: 15px;
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
