@@ -1,0 +1,54 @@
+body {
+  background-color: #f6f5fa;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 90px 0px 25px 0px;
+  color: #1e1a30;
+}
+.page-footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 20px;
+}
+#ai-form-input {
+  width: 75%;
+  padding: 15px;
+  border-radius: 50px;
+  border: 1px solid #9f9da7;
+  font-size: 16px;
+}
+#ai-submit-button {
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-left: 5px;
+  border: none;
+  color: #fff;
+  background-color: #885df1;
+}
+#form-handler {
+  background-color: #ffffff;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.06);
+}
+#ai-search-example {
+  font-size: 12px;
+  padding-top: 10px;
+  color: #878686;
+}
+.answer-ai {
+  background-color: #fff;
+  max-width: 500px;
+  padding: 30px 28px;
+  border-left: 7px solid #885df1;
+  display: block;
+  margin: 35px auto;
+  font-size: 20px;
+}

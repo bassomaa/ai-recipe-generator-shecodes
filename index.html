@@ -3,12 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>AI Recipe Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
-    <footer>
-      Coded by <a href="https://github.com/bassomaa" target="_blank">Bassma</a>,
-      code open-sourced on
+    <header>
+      <h1>AI Recipe generator</h1>
+    </header>
+    <main>
+      <div id="form-handler">
+        <form id="actual-form" action="">
+          <input
+            id="ai-form-input"
+            calss="ai-form-input"
+            type="search"
+            placeholder="Enter any recipe you want"
+          />
+          <input
+            class="ai-submit-button"
+            id="ai-submit-button"
+            type="submit"
+            value="Submit"
+          />
+        </form>
+        <div id="ai-search-example" class="ai-search-example">
+          e.i Carbonara, Banana bread
+        </div>
+      </div>
+    </main>
+    <div class="answer"></div>
+    <footer class="page-footer">
+      This AI project was coded by
+      <a href="https://github.com/bassomaa" target="_blank">Bassma</a>, code
+      open-sourced on
       <a
         href="https://github.com/bassomaa/ai-recipe-generator-shecodes"
         target="_blank"
@@ -18,5 +53,6 @@
         >Netlify</a
       >
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
